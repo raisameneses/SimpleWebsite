@@ -1,0 +1,240 @@
+body
+{
+   background: url('images/stucco/stucco.png');
+  
+}
+html{
+    /* margin: 10px 250px 10px 250px; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 300px;
+    margin-left: 150px;
+}
+
+aside
+{
+    float: left;   
+    border: 100px;    
+}
+
+article
+{
+    width: 625px;
+    margin-right: 15px;
+    margin-top: 90px;
+}
+
+table{
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;    
+}
+input[type=email] {
+    width: 200%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 4px;
+}
+input[name=address] {
+    width: 200%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 4px;
+}
+input[type=text] {    
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 4px;
+}
+input[type=tel] {    
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 4px;
+}
+
+
+input[type=date] {    
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 4px;
+}
+
+select {
+    
+    border-radius: 4px;
+    border: 2px solid #DCDCDC;
+    background-color: #f1f1f1;
+    font-size: 14px;
+}
+input[type=password] {    
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 4px;
+}
+input[name=state] {
+    width: 15%;    
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 4px;
+}
+input[name=zip] {
+    width: 25%;    
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 4px;
+}
+.line{
+    border-top: .5px solid #DCDCDC;
+}
+#pageTitle{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+#picture_title{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#picture_description{
+    float: right;
+}
+.articleButton{
+    border: .5px solid #DCDCDC;
+    background-color: #ffffff;
+    padding: 15px;     
+    align-items: center;
+    justify-content: center;
+}
+.picture_border{
+    border: .5px solid #DCDCDC;
+    background-color: #ffffff;
+    padding: 15px;     
+    align-items: center;
+    justify-content: center;
+}
+.table{    
+    font-weight: bold;
+}
+.table2{    
+    font-weight: bold;
+    font-size: 11px;
+}
+.table3{
+    font-weight: bold;
+    border-bottom: .5px solid #DCDCDC;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.column {   
+    float: left;
+    width: 15%;    
+    border: .5px solid #DCDCDC;
+    padding: 15px; 
+  }
+
+  .column2 {   
+    float: left;
+    width: .5%;
+    padding: 15px; 
+  }
+
+a:link {
+    color: blue;
+ }
+a:visited{
+    color: purple;
+}
+
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.button {
+    background-color: #eaeaea;
+    border: none;
+    color: #4436e5;
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: hand;
+    
+}
+#main{
+   border: .5px 
+   solid #DCDCDC;
+   background-color: #ffffff;
+   padding: 10px; 
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    top: 0;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .navbar2 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    top: 0;
+  }
+  
+  .navbar2 a {
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar2 a:hover {
+    background-color: #a19cb5;
+    color: black;
+  }
+
+  .foot {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    top: 0;
+    color: white;
+    text-align: center;
+  }
+  #registration{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans'
+  }

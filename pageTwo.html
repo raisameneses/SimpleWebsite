@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleA1.css" />
+    <title>Assignment 1 - Page 2</title>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#">Checkout</a>
+        <a href="#">Shopping Cart</a>
+        <a href="#">Wish List</a>
+        <a href="#">My Account</a>
+    </div>
+    <div>
+        <h1 id="pageTitle">Art Store</h1>
+    </div>
+
+    <div class="navbar2">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Art Works</a>
+        <a href="#">Artists</a>
+    </div>
+    <br>
+    <section id="main">
+        <h1 id="registration">Customer Registration</h1>
+
+        <table style="width: 1010px;">
+            <form method="get" action="http://faculty.washington.edu/ealmasri/assign1.php">
+                <tr>
+                    <td class="table3" colspan="80">1. User Info</td>
+                </tr>
+                <tr>
+                    <td class="table2">First Name</td>
+                    <td class="table2">Last Name</td>
+                </tr>
+                <tr>
+                    <td class="table">
+                        <input type="text" name="first">
+                    </td>
+                    <td class="table">
+                        <input type="text" name="last">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table2">E-Mail</td>
+                </tr>
+                <tr>
+                    <td class="table">
+                        <input type="email" name="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="table2">Password</td>
+                    <td class="table2">Password Repeat</td>
+                </tr>
+                <tr>
+                    <td class="table">
+                        <input type="password" name="pass1">
+                    </td>
+                    <td class="table">
+                        <input type="password" name="pass2">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="table3" colspan="15">2. Location</td>
+                </tr>
+
+                <tr>
+                    <td class="table2">Address</td>
+                </tr>
+                <tr>
+                    <td class="table">
+                        <input type="text" name="address">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="table2">City</td>
+                    <td class="table2">State</td>
+                    <td class="table2">Zip</td>
+                </tr>
+                <tr>
+                    <td class="table">
+                        <input type="text" name="city">
+                    </td>
+                    <td class="table">
+                        <input type="text" name="state">
+                    </td>
+                    <td class="table">
+                        <input type="text" name="zip">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="table2">Phone</td>
+                    <td class="table2">Country</td>
+                </tr>
+                <tr>
+                    <td class="table">
+                        <input type="tel" name="phone">
+                    </td>
+                    <td>
+                        <select id="country" name="country">
+                            <option value="United States">United States</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="France">France</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table">Continent</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="continent" value="1"> Africa
+                        <br>
+                        <input type="radio" name="continent" value="2"> Antartica
+                        <br>
+                        <input type="radio" name="continent" value="3"> Asia
+                        <br>
+                        <input type="radio" name="continent" value="4"> Australia
+                        <br>
+                        <input type="radio" name="continent" value="5"> Europe
+                        <br>
+                        <input type="radio" name="continent" value="6"> North America
+                        <br>
+                        <input type="radio" name="continent" value="7"> South America
+                        <br>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td class="table3" colspan="15">3. Personal Details</td>
+                </tr>
+
+                <tr>
+                    <td class="table2">Birth Day</td>
+                    <td class="table2">Favorite Color</td>
+                </tr>
+                <tr>
+                    <td class="table">
+                        <input type="date" name="birthday">
+                    </td>
+                    <td class="table">
+                        <input type="color" name="favorite" value="#000000">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table">Interest in Art</td>
+                </tr>
+                <tr>
+                    <td class="table2" colspan="15"> Minimal:
+                        <input type="range" name="interest" min="0" max="50"> Love it!</td>
+
+                </tr>
+                <tr>
+                    <td class="table3" colspan="15">4. All Done </td>
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <p style="font-size:12px; font-weight: bold;">
+                            <input class="table2" type="checkbox" name="accept" id="accept"> I agree to the
+                            <a href="#">Terms and conditions</a>
+                        </p>
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <button style="background-color: #bddbfa;" type="submit" name="submit">
+                            <img src="images/button_ok.png">Sign me up!</button>
+                    </td>
+                </tr>
+            </form>
+
+        </table>
+        </div>
+
+    </section>
+    <br>
+</body>
+<footer class="foot">
+    <p>All images are copyright to their owners. This is just a hypothetical site. &#169 2014 Copyright Art Store</p>
+</footer>
+
+</html>
